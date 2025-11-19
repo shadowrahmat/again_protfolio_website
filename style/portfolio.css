@@ -15,6 +15,21 @@
     color: #fd6e0a;
 }
 
+.dark_2 {
+    color: #474747;
+}
+
+.btn_primary {
+
+    background-color: #fd6e0a;
+    color: white;
+    border: 0 solid white;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
 
 
 /* Nav style */
@@ -22,10 +37,34 @@
 nav {
     
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 200px;
 }
 
 .nav_tittle {
 
     font-size: 45px;
     font-weight: 800;
+}
+
+nav ul li {
+
+    list-style: none;
+    margin-right: 50px;
+    
+
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+nav a {
+
+    text-decoration: none;
+    font-size: 20px;
 }
