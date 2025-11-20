@@ -30,6 +30,14 @@
     font-size: 20px;
 }
 
+.header {
+    background-image: url(/images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+    
+}
+
 
 
 /* Nav style */
@@ -39,7 +47,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 200px;
+    /* margin: 0 200px; */
+    
 }
 
 .nav_tittle {
@@ -67,4 +76,39 @@ nav a {
 
     text-decoration: none;
     font-size: 20px;
+}
+
+
+/* banner style */
+
+.banner{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px 0 200px;
+
+}
+
+.banner_content {
+    max-width: 580px;
+}
+.banner_pic {
+    width: 580px;
+}
+
+.banner_greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner_tittle {
+
+    font-size: 84px;
+    font-weight: bold;
+
+}
+
+.banner_description {
+    font-size: 18px;
+
 }
