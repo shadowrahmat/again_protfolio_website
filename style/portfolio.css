@@ -224,3 +224,18 @@ main {
     
     margin-top: 50px;
 }
+
+
+/* footer section */
+
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: white;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer_column {
+    width: 50%;
+}
