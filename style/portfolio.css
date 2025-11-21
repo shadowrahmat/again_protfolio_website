@@ -191,3 +191,36 @@ main {
     margin-top: 20px;
     
 }
+
+
+
+.resume_container {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.experience_description, .experience_sub_tittle {
+
+    color: #757575;
+    
+}
+
+.experience_sub_tittle {
+
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume hr {
+
+    margin: 10px 0 10px 0;
+
+}
+
+
+.resume_download_cv {
+    
+    margin-top: 50px;
+}
